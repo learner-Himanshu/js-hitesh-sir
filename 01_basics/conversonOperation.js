@@ -6,7 +6,7 @@
 
 //  let typeInNumber = Number(score)
 //  console.log( typeof typeInNumber);
-//  console.log( typeof typeInNumber);
+
 //  console.log(typeInNumber);
 
 let isLoggedIn= 1;
@@ -20,3 +20,6 @@ console.log(typeof isLoggedIn)
 let booleanIsLoggedIn =Boolean(isLoggedIn)
 console.log(typeof booleanIsLoggedIn);
 console.log(booleanIsLoggedIn);
+let value = 1+ 2 + "3"
+console.log(value);
+console.log(typeof value);
