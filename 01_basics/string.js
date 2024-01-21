@@ -9,7 +9,14 @@ console.log(gameName)
 
 
 // here are some strings methods ------
-
+// String length
+// String charAt()
+// String charCodeAt()
+// String at()
+// String [ ]
+// String slice()
+// String substring()
+// String substr()
 // String toUpperCase()
 // String toLowerCase()
 // String concat()
