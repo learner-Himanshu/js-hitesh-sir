@@ -50,35 +50,34 @@ const newArray= new Array("karan","jyoti","gunjan","anjali","shrasti")  // sec w
 
 let values=[1,2,3,4,5,6,7]
 // console.log(values)
-values.push(8)
-// console.log(values);   adds the value in last of array
-values.pop()
-// console.log(values);   delte the value from last
-values.unshift(0)
+// values.push(8)// console.log(values);   adds the value in last of array
+// values.pop()
+// console.log(values);   delete the value from last
+// values.unshift(0)
 // console.log(values); adds the value in begining
-values.shift()
-// console.log(values); //remves the value from begining but we can provide indexs too
+// values.shift()
+// console.log(values); //removes the value from begining but we can provide indexs too
 
 // console.log(values.indexOf(4));
 // console.log(values.includes(4));
 // console.log(values.indexOf(14)); //-1 value will always display when value doen't exist inside the array
 
 
-// console.log(values)
-// console.log(typeof values)
-// let newVal = values.join()  // it changes the type of an array when copy to another array
-// console.log(newVal)
-// console.log(typeof newVal)
+console.log(values)
+console.log(typeof values)
+let newVal = values.join()  // it changes the type of an array when copy to another array
+console.log(newVal)
+console.log(typeof newVal)
 
 
 
 // =========>> slice and splice methods
 
 // console.log(values.slice(1,4));  // it returns the section of an array where first index includes but not last
- console.log(values);
- let slicedval = values.slice(1,3)
- console.log("sliced values are : " , slicedval);
-  console.log(values);  // create the shallow copies no change in original array
- let splicedval = values.splice(1,3)  // it changes the original values of an array
- console.log("spliced values are : " , splicedval);
+//  console.log(values);
+//  let slicedval = values.slice(1,3)
+//  console.log("sliced values are : " , slicedval);
+//   console.log(values);  // create the shallow copies no change in original array
+//  let splicedval = values.splice(1,3)  // it changes the original values of an array
+//  console.log("spliced values are : " , splicedval);
  console.log(values) // changes into the original array values
